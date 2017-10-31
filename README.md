@@ -9,16 +9,16 @@ Use danielcolceag.com and digitalocean.com for the hosting.
 Referencing #4 issue - High Level Architecture
 
 
-    User
-------v------
-Load Balancer
-------v------
-Face-App UI - Horizontally scaled
-------v------
-Load Balancer
-------v------|---------------|----------------------
-  Face-API   > Load Balancer > Facial Expression API
-------v------|---------------|----------------------
-Load Balancer
-------v------
-Facebook API
+    User<br>
+------v------<br>
+Load Balancer<br>
+------v------<br>
+Face-App UI - Horizontally scaled<br>
+------v------<br>
+Load Balancer<br>
+------v------|---------------|----------------------<br>
+  Face-API   > Load Balancer > Facial Expression API<br>
+------v------|---------------|----------------------<br>
+Load Balancer<br>
+------v------<br>
+Facebook API<br>
